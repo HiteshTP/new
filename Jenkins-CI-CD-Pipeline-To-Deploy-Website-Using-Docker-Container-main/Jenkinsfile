@@ -6,7 +6,7 @@ pipeline{
         stage("cloning"){
             steps{
                 echo"cloning repo to the server"
-                git url:"https://github.com/Kunal-Pere/Jenkins-CI-CD-Pipeline-To-Deploy-Website-Using-Docker-Container.git", branch:"main"
+                git url:"https://github.com/HiteshTP/new.git/Jenkins-CI-CD-Pipeline-To-Deploy-Website-Using-Docker-Container.git", branch:"main"
             }
         }
         stage("Building image"){
